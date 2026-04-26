@@ -87,6 +87,12 @@
             height: 100%;
             background-color: var(--main-color);
             border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .prof-pic:hover {
+            background-color: var(--accent-color);
+            transform: rotate(5deg) scale(1.05);
         }
 
         #index-content img {
