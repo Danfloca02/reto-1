@@ -125,6 +125,10 @@
             color: var(--accent-color);
         }
 
+        .rd-link {
+            text-decoration: none;
+        }
+
         section {
             display: flex;
             align-items: flex-start;
