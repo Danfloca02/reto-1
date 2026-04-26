@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATI[UCV]Log 2026-1</title>
+    <link rel="icon" type="image/png" href="C:\Users\danfl\UCV\6to Semestre\ATI\reto1\icon\cropped-logonuevo-32x32.png">
+    <link rel="icon" type="image/png" href="C:\Users\danfl\UCV\6to Semestre\ATI\reto1\icon\cropped-logonuevo-192x192.png">
+    <link rel="stylesheet" href="C:\Users\danfl\UCV\6to Semestre\ATI\reto1\css\_theme.css">
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(227, 229, 230);
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;            
+            justify-content: space-between;
+            padding: 0px 10px;
+            height: 80px;
+            background-color: var(--main-color);
+        }
+        
+        .title {
+            font-size: 45px;
+            color: white;
+            font-weight: bold;
+            margin: 0;
+            display: flex;
+            align-items: baseline;
+            flex: 0 1 auto
+        }
+
+        .title span {
+            font-size: 20px;
+            margin: 0 5px;
+        }
+        
+        
+        nav form {
+            display: flex;
+            flex: 0 1 400px;
+            height: 40px;
+        }
+
+        form input {
+            flex: 3;
+            padding: 0 15px;
+            border-top-left-radius: 15%;
+            border-radius: 20px 0 0 20px;
+            border: 1px solid var(--accent-color);
+        }
+
+        form button {
+            flex: 1;
+            background-color: var(--accent-color);
+            color: white;
+            border: 1px solid var(--accent-color);
+            height: 100%;
+            padding: 5px 10px;
+            border-radius: 0 20px 20px 0;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .user-icon {
+            width: 40px;
+            height: 40px;
+            flex: 0 0 40px;
+            background-color: var(--accent-color);
+            object-fit: fill;
+            border-radius: 50%;
+        }
+
+        #content-title {
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 40px;
+            padding: 20px;
+        }
+
+        .profile-picture {
+            width: 100%;
+            height: 100%;
+            background-color: var(--main-color);
+            border-radius: 10px;
+        }
+
+        section img {
+            width: 100%;
+            height: 80%;
+            border-radius: 10px 10px 0 0;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+        }
+
+        .profile-picture p {
+            text-align: left;
+            background-color: white;
+            color: black;
+            margin: -3px 0 0 0;
+            padding: 10px;
+            height: 20px;
+
+        }
+
+        footer {
+            border-top: 1px solid grey;
+            text-align: center;
+            padding: 10px;
+            color: darkgray;
+            margin-top: 20px;
+        }
+
+
+
+
+    </style>    
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="title">ATI<span>[UCV]</span>Log</h1>
+            <form>
+                <input type="search" placeholder="Nombre..." aria-label="Search">
+                <button type="submit">Buscar</button>
+            </form>
+            <img src="C:\Users\danfl\UCV\6to Semestre\ATI\reto1\icon\userIcon.svg" alt="User Icon" class="user-icon">
+        </nav>
+    </header>
+
+    <div>
+        <h1 id="content-title">Semestre 2026-1</h1>
+    
+        <section id="main-content">
+            
+            <div class="profile-picture">
+                <img src="C:\Users\danfl\UCV\6to Semestre\ATI\reto1\28314837\28314837.jpg">
+                <p>Daniel Flores</p>
+            </div>
+
+            <div class="profile-picture">
+                <img src="C:\Users\danfl\UCV\6to Semestre\ATI\reto1\Dummies\Dummy1.png">
+                <p>Ginger 1</p>
+            </div>
+
+            <div class="profile-picture">
+                <img src="C:\Users\danfl\UCV\6to Semestre\ATI\reto1\Dummies\Dummy2.png">
+                <p>Man with a beard</p>
+            </div>
+
+            <div class="profile-picture">
+                <img src="C:\Users\danfl\UCV\6to Semestre\ATI\reto1\Dummies\Dummy3.png">
+                <p>Green hair dude</p>
+            </div>
+
+            <div class="profile-picture">
+                <img src="C:\Users\danfl\UCV\6to Semestre\ATI\reto1\Dummies\Dummy4.png">
+                <p>Pink hair girl</p>
+            </div>
+
+            <div class="profile-picture">
+                <img src="C:\Users\danfl\UCV\6to Semestre\ATI\reto1\Dummies\Dummy5.png">
+                <p>Beard man 2</p>
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        Copyright &copy; Escuela de computaci&oacute;n - ATI. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
